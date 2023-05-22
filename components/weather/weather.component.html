@@ -1,0 +1,16 @@
+<h2>Weather:</h2>
+
+<div *ngIf="weather">
+    <h2>Details</h2>
+
+    <div>
+        <label for="main">Weather Type:</label>{{ weather.main }} <br>
+        <label for="description">Description:</label>{{ weather.description }} <br>
+        <label for="lon">Longitude:</label>{{ weather.lon }} <br>
+        <label for="lat">Latitude:</label>{{ weather.lat }} <br>
+        <label for="temp">Temperature:</label>{{ weather.temp }} <br>
+        <label for="temp_min">Lowest Temp:</label>{{ weather.temp_min }} <br>
+        <label for="temp_max">Highest Temp:</label>{{ weather.temp_max }} <br>
+        <label for="country">Country:</label>{{ weather.country }} <br>
+    </div>
+</div>

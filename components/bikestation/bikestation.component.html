@@ -1,0 +1,17 @@
+<hr />
+
+
+<h2>Bike Stations:</h2>
+
+
+<ul class="bikestation">
+    <li *ngFor="let bike of bikestation">
+        <a routerLink="/detail/{{bike.name}}">
+            <span class="badge">{{bike.name}}</span> / {{bike.status}}
+        </a> 
+    </li>
+</ul>
+
+
+
+
